@@ -9,7 +9,7 @@ createApp({
   methods: {},
   mounted() {
     axios.get("./server.php").then((results) => {
-      console.log("Risultati: ", results);
+      // console.log("Risultati: ", results);
       this.list = results.data;
     });
   },
