@@ -15,7 +15,7 @@ createApp({
   mounted() {
     axios.get("./list.php").then((results) => {
       this.list = results.data;
-      console.log(results.data);
+      // console.log(results.data);
     });
   },
 }).mount("#app");
